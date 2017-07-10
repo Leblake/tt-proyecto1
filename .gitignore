@@ -1,38 +1,26 @@
 
-# Created by https://www.gitignore.io/api/c++
+# Created by https://www.gitignore.io/api/laravel
 
-### C++ ###
-# Prerequisites
-*.d
+### Laravel ###
+vendor/
+node_modules/
+npm-debug.log
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+storage/*.key
+.env.*.php
+.env.php
+.env
+Homestead.yaml
+Homestead.json
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# End of https://www.gitignore.io/api/c++
+# End of https://www.gitignore.io/api/laravel
